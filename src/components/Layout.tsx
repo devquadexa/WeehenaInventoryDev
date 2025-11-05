@@ -21,7 +21,7 @@ import {
 import { useAuth } from '../hooks/useAuth'
 import { useCompanyData } from '../hooks/useCompanyData'
 import { supabase } from '../lib/supabase' // Import supabase
-import WeehenaLogo from '../assets/images/Weehena Logo(Ai) copy copy copy.png';
+import WeehenaLogo from '../assets/images/Weehena Logo(Ai) copy.png';
 
 export const Layout: React.FC = () => {
   const { user, logout, isOnline } = useAuth()
