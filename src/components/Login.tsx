@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Calendar } from 'lucide-react'
 import { useAuth } from '../hooks/useAuth'
-import WeehenaLogo from '../assets/images/Weehena Logo(Ai) copy copy copy.png';
+import WeehenaLogo from '../assets/images/Weehena Logo(Ai) copy.png';
 
 export const Login: React.FC = () => {
   const [showModal, setShowModal] = useState(false)
